@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume with Grid Concept</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		body {
+			background-color: #f1f1f1;
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 1024px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		.col {
+			flex-basis: 100%;
+			margin: 10px 0;
+		}
+
+		@media only screen and (min-width: 576px) {
+			.col-sm-6 {
+				flex-basis: calc(50% - 20px);
+				margin: 10px;
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+			.col-md-4 {
+				flex-basis: calc(33.33% - 20px);
+				margin: 10px;
+			}
+		}
+
+		@media only screen and (min-width: 992px) {
+			.col-lg-3 {
+				flex-basis: calc(25% - 20px);
+				margin: 10px;
+			}
+		}
+
+		.resume-item {
+			padding: 10px;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+			text-align: center;
+		}
+
+		.resume-item h2 {
+			margin-bottom: 10px;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: 700;
+			color: #0175b2;
+			letter-spacing: 2px;
+		}
+
+		.resume-item p {
+			margin-bottom: 10px;
+			color: #666;
+			font-size: 14px;
+			line-height: 20px;
+		}
+
+		.resume-item a {
+			display: block;
+			padding: 10px;
+			background-color: #0175b2;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: 2px;
+			text-decoration: none;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.resume-item a:hover {
+			background-color: #fff;
+			color: #0175b2;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col col-sm-6 col-md-4 col-lg-3">
+			<div class="resume-item">
+				<h2>Name</h2>
+				<p>Hafsa Nayab</p>
+                <a href="#">View More</a>
+			</div>
+		</div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Profile</h2>
+                <p>Web Developer</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Skills</h2>
+                <p>HTML, CSS, JavaScript</p>
+                <a href="#">View More</a>
+               
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Experience</h2>
+                <p>2 years of experience</p>
+                <a href="#">View More</a>
+                
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Education</h2>
+                <p>Bachelor of Computer Science</p>
+                <a href="#">View More</a>
+              
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Certifications</h2>
+                <p>JavaScript Developer Certificate</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Achievements</h2>
+                <p>Completed 50 web development projects</p>
+                <a href="#">View More</a>
+               
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Contact</h2>
+               
+                <p> contact number :+1 234 567890</p>
+                <a href="#">View More</a>
+              
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Contact Information</h2>
+                <p>123 Nust Balochistan Campus.</p>
+                <p>Quetta, Pakistan 12345</p>
+                <p>(555) 555-1234</p>
+                <a href="NUST Balochistan Campus(NBC), Quetta, Kach Road, near Sheikh Mohammad Bin Zayed Al Nahyan Cardiac Centre, Quetta">View on Google Maps</a>
+              
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Education</h2>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>Nust Balochistan Campus, Pakistan</p>
+                <p>Graduated July 2023</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Experience</h2>
+                <p>Web Developer</p>
+                <p>Nust Balochitan</p>
+                <p>January 2023 - Present</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="col col-sm-6 col-md-4 col-lg-3">
+            <div class="resume-item">
+                <h2>Skills</h2>
+                <p>HTML, CSS, JavaScript, PHP, MySQL, flutter, C++, Content Writer </p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>    
+        
+        
